@@ -12,7 +12,7 @@ services:
     image: devopsrinu/catalogue:v1
     container_name: catalogue
     depends_on:
-      -mongodb
+      - mongodb
   
   redis:
     image: redis:7.0
